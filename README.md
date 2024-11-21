@@ -29,11 +29,13 @@ Supports Windows (x64/x86), Linux (x64/arm64) and macOS 10.15+ (intel/apple).
 
 ## Features
 
-- Since the clash core has been removed. The project no longer maintains the clash core, but only the Clash Meta core.
-- Profiles management and enhancement (by yaml and Javascript). [Doc](https://clash-verge-rev.github.io)
-- Improved UI and supports custom theme color.
-- Built-in support [Clash.Meta(mihomo)](https://github.com/MetaCubeX/mihomo) core.
-- System proxy setting and guard.
+- 基于性能强劲的 Rust 和 Tauri 2 框架
+- 内置[Clash.Meta(mihomo)](https://github.com/MetaCubeX/mihomo)内核，并支持切换 `Alpha` 版本内核。
+- 简洁美观的用户界面，支持自定义主题颜色、代理组/托盘图标以及 `CSS Injection`。
+- 配置文件管理和增强（Merge 和 Script），配置文件语法提示。
+- 系统代理和守卫、`TUN(虚拟网卡)` 模式。
+- 可视化节点和规则编辑
+- WebDav 配置备份和同步
 
 ### FAQ
 
